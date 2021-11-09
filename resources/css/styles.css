@@ -1,0 +1,160 @@
+body {
+  background-color: hsl(233, 47%, 7%);
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 450px;
+  width: 1250px;
+  margin: 140px auto;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 8px;
+}
+
+.text-container {
+  color: white;
+  font-family: "Inter", 'Lexend Deca', sans-serif;
+}
+
+.text-container span {
+  color: hsl(277, 64%, 61%);
+}
+
+.text-container h1 {
+  font-weight: 700;
+  font-size: 42px;
+  margin-bottom: 30px;
+  margin-left: 70px;
+  margin-top: 75px;
+}
+
+.text-container h2 {
+  font-weight: 700;
+}
+
+.text-container #main-text {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 17.5px;
+  line-height: 1.7;
+  margin-left: 70px;
+}
+
+.different-font-family {
+  font-family: "Lexend Deca", serif;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.flex-container {
+  display: flex;
+  line-height: 1.5;
+  margin-bottom: 60px;
+  margin-top: -30px;
+}
+
+.flex-container h2 {
+  margin-top: 100px;
+}
+
+.flex-container p {
+  color: hsla(0, 0%, 100%, 0.6)
+}
+
+.img-container img {
+  height: 450px;
+  width: 600px;
+  margin-bottom: -6px;
+  margin-top: -2px;
+  border-radius: 0px 8px 8px 0px;
+}
+
+#num-10 {
+  margin-left: 70px;
+}
+
+#num-314 {
+  margin-left: 85px;
+}
+
+#num-12 {
+  margin-left: 80px;
+}
+
+#companies {
+  margin-left: 70px;
+}
+
+#templates {
+  margin-left: 85px;
+}
+
+#queries {
+  margin-left: 80px;
+}
+
+.attribution {
+  color: hsla(0, 0%, 100%, 0.75);
+  text-align: center;
+  margin-top: -130px;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 480px) {
+  .card-container {
+    flex-direction: column;
+    width: 370px;
+    height: 100%;
+    margin-top: 100px;
+  }
+
+  .img-container {
+    order: -1;
+  }
+
+  .img-container img {
+    width: 370px;
+    height: 270px;
+    border-radius: 8px 8px 0px 0px;
+  }
+
+  .text-container {
+    text-align: center;
+    width: 100%;
+    margin-right: 80px;
+    margin-top: -30px;
+  }
+
+  .flex-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #num-10 {
+    margin-top: 60px;
+  }
+
+  #companies {
+    margin-bottom: -50px;
+  }
+
+  #num-314 {
+    margin-left: 65px;
+  }
+
+  #templates {
+    margin-bottom: -50px;
+    margin-left: 68px;
+  }
+
+  #num-12 {
+    margin-left: 76px;
+  }
+
+  #queries {
+    margin-left: 70px;
+    margin-bottom: -10px;
+  }
+}
